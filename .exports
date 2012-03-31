@@ -10,4 +10,16 @@ export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *"
 
-export PATH=~/.rvm/bin:$PATH:~/bin:~/.cabal/bin
+# rvm so we can run different versions of ruby
+PATH=~/.rvm/bin:$PATH
+
+# random executables in this folder
+PATH=$PATH:~/bin
+
+# cabal installed executables
+PATH=$PATH:~/.cabal/bin
+
+# cabal-dev installed executables
+PATH=./cabal-dev:$PATH
+
+export PATH=/usr/local/bin:$PATH
