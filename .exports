@@ -8,7 +8,7 @@ export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
-export HISTIGNORE="ls:ls *"
+export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
 # rvm so we can run different versions of ruby
 PATH=~/.rvm/bin:$PATH
