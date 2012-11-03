@@ -23,3 +23,5 @@ PATH=$PATH:~/.cabal/bin
 PATH=./cabal-dev:$PATH
 
 export PATH=/usr/local/bin:$PATH
+
+export CLICOLOR=1
