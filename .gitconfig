@@ -26,6 +26,7 @@
 	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
+	autocrlf = input
 
 [color]
 	# Use colors in Git commands that are capable of colored output when outputting to the terminal
@@ -69,8 +70,8 @@
 	name = Andreas Karlsson
 	email = andreas.j.karlsson@cybercom.com
 [difftool "sourcetree"]
-   cmd = opendiff $LOCAL $REMOTE
-   path = 
+	cmd = opendiff $LOCAL $REMOTE
+	path = 
 [mergetool "sourcetree"]
-   cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED
-   trustExitCode = true
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
