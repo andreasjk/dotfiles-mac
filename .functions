@@ -69,3 +69,8 @@ function codepoint() {
 	perl -e "use utf8; print sprintf('U+%04X', ord(\"$@\"))"
 	echo # newline
 }
+
+# Github gitignore
+function gitignore() {
+	curl -H "Accept:application/vnd.github.v3.raw+json" "https://api.github.com/gitignore/templates/$@"
+}
