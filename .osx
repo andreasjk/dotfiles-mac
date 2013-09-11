@@ -167,9 +167,6 @@ defaults write com.apple.Mail DisableSendAnimations -bool true
 # not sure if I want to disable this
 # defaults write com.apple.dashboard devmode -bool true
 
-# Enable paste and match style as default @v function
-defaults write .GlobalPreferences -dict-add NSUserKeyEquivalents "Paste and Match Style" -string "@v"
-
 # Reset Launchpad
 # [ -e ~/Library/Application\ Support/Dock/*.db ] && rm ~/Library/Application\ Support/Dock/*.db
 
