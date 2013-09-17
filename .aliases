@@ -11,6 +11,7 @@ alias g="git"
 alias v="vim"
 alias m="mate ."
 alias st="git sourcetree"
+alias copykey="pbcopy < ~/.ssh/andreas_rsa.pub"
 
 # List all files colorized in long format, including dot files
 alias la="ls -Gla"
