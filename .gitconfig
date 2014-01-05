@@ -68,7 +68,7 @@
 	insteadOf = "gist:"
 [user]
 	name = Andreas Karlsson
-	email = andreas.j.karlsson@cybercom.com
+	email = andreasjk@icloud.com
 [difftool "sourcetree"]
 	cmd = opendiff $LOCAL $REMOTE
 	path = 
